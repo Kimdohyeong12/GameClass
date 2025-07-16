@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\project\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameClass\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34401CA4-F901-401E-82DC-7523CAB9ABD4}|project.vcxproj|C:\\Users\\Administrator\\Desktop\\project\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{85D7C2F6-43AD-47D0-994D-1A978A0ED412}|..\\Class1th(Complie)\\Class1th(Complie).vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34401CA4-F901-401E-82DC-7523CAB9ABD4}|project.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\project\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34401CA4-F901-401E-82DC-7523CAB9ABD4}|project.vcxproj|solutionrelative:Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +22,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class1th(Complie)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c",
+              "RelativeToolTip": "..\\Class1th(Complie)\\source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-16T09:11:59.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Sourse.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\project\\Sourse.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\project\\Sourse.c",
               "RelativeDocumentMoniker": "Sourse.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\project\\Sourse.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\project\\Sourse.c",
               "RelativeToolTip": "Sourse.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:31:05.084Z",
               "EditorCaption": ""
