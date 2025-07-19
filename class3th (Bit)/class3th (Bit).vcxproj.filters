@@ -15,7 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="sourse.c">
+=======
+    <ClCompile Include="class3th (Bit).cpp">
+>>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -3,17 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\project\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{635C650F-F9B8-4912-AA99-A40FDF2918C5}|..\\class3th (Bit)\\class3th (Bit).vcxproj|C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class3th (Bit)\\sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7C53475F-3292-480B-B93B-B8648E52D4DD}|..\\class3th(Bit)\\class3th(Bit).vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\class3th(Bit)\\sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85D7C2F6-43AD-47D0-994D-1A978A0ED412}|..\\Class1th(Complie)\\Class1th(Complie).vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
     },
     {
       "AbsoluteMoniker": "D:0:0:{34401CA4-F901-401E-82DC-7523CAB9ABD4}|project.vcxproj|C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\project\\Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34401CA4-F901-401E-82DC-7523CAB9ABD4}|project.vcxproj|solutionrelative:Sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{E36877B9-E44E-4A3B-A05D-A621E92ABC4A}|..\\class2th(Variable \u0026 constant)\\class2th(Variable \u0026 constant).vcxproj|C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85D7C2F6-43AD-47D0-994D-1A978A0ED412}|..\\Class1th(Complie)\\Class1th(Complie).vcxproj|C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Class1th(Complie)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{E36877B9-E44E-4A3B-A05D-A621E92ABC4A}|..\\class2th(Variable \u0026 constant)\\class2th(Variable \u0026 constant).vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +38,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "sourse.c",
               "DocumentMoniker": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c",
@@ -34,6 +46,15 @@
               "ToolTip": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c",
               "RelativeToolTip": "..\\class2th(Variable \u0026 constant)\\sourse.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class1th(Complie)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\Class1th(Complie)\\source.c",
+              "RelativeToolTip": "..\\Class1th(Complie)\\source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+>>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-17T12:48:17.811Z",
               "IsPinned": true,
@@ -43,11 +64,32 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "sourse.c",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class3th (Bit)\\sourse.c",
               "RelativeDocumentMoniker": "..\\class3th (Bit)\\sourse.c",
               "ToolTip": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\class3th (Bit)\\sourse.c",
               "RelativeToolTip": "..\\class3th (Bit)\\sourse.c",
               "ViewState": "AgIAAAAAAAAAAAAAAADgvx0AAAAAAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\class3th(Bit)\\sourse.c",
+              "RelativeDocumentMoniker": "..\\class3th(Bit)\\sourse.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\class3th(Bit)\\sourse.c",
+              "RelativeToolTip": "..\\class3th(Bit)\\sourse.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-18T09:50:12.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sourse.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c",
+              "RelativeDocumentMoniker": "..\\class2th(Variable \u0026 constant)\\sourse.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\class2th(Variable \u0026 constant)\\sourse.c",
+              "RelativeToolTip": "..\\class2th(Variable \u0026 constant)\\sourse.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+>>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-19T10:54:33.683Z",
               "EditorCaption": ""
@@ -67,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Sourse.c",
               "DocumentMoniker": "C:\\Users\\\uAE40\uB3C4\uD615\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\project\\Sourse.c",
               "RelativeDocumentMoniker": "Sourse.c",
