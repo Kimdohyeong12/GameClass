@@ -35,6 +35,24 @@ void main()
 	// printf("unsigned count 변수의 값 : %u\n", count);
 #pragma endregion
 
+#pragma region 실수를 표현하는 방법
+
+	// float decimal = 3.1f;
+	// double x = 3.1;
+
+	// 정수형 리터럴 상수는 저장하는 값의 범위가 크지 않으면
+	// int 자료형으로 저장되며, 실수형 리터럴 상수는 double
+	// 자료형으로 저장됩니다.
+
+	// printf("decimal 변수의 값 : %.7f\n", decimal);
+	// printf("x 변수의 값 : %f\n", x);
+	// 표쥰 출력 함수로 소수를 출력할 때 4 byte 크기의 실수랑
+	// 자료형ㄹ은 소수점 이하 6자리까지만 표기하며, 8 byte 크기의
+	// 실수형 자료형은 소수점 이하 15자리까지만 표기합니다.
+
+#pragma endregion
+
+
 
 
 }
