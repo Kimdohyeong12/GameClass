@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void main()
 {
@@ -7,21 +7,21 @@ void main()
 	// 수행하도록 실행하는 명령문입니다.
 
 #pragma region 관계 연산자
-	// 두 개의 피연산자의 값을 비교하여 그 결과를 0 또는
-	// 1이라는 값으로 나타내는 연산자입니다.
+// 두 개의 피연산자의 값을 비교하여 그 결과를 0 또는
+// 1이라는 값으로 나타내는 연산자입니다.
 
-	// int positionX = 10;
-	// int positionY = 20;
-	// 
-	// printf("positionX < positionY : %d\n", positionX < positionY);
-	// printf("positionX > positionY : %d\n", positionX > positionY);
-	// printf("positionX <= positionY : %d\n", positionX <= positionY);
-	// printf("positionX >= positionY : %d\n", positionX >= positionY);
-	// printf("positionX != positionY : %d\n", positionX != positionY);
-	// printf("positionX == positionY : %d\n", positionX == positionY);
+// int positionX = 10;
+// int positionY = 20;
+// 
+// printf("positionX < positionY : %d\n", positionX < positionY);
+// printf("positionX > positionY : %d\n", positionX > positionY);
+// printf("positionX <= positionY : %d\n", positionX <= positionY);
+// printf("positionX >= positionY : %d\n", positionX >= positionY);
+// printf("positionX != positionY : %d\n", positionX != positionY);
+// printf("positionX == positionY : %d\n", positionX == positionY);
 
-	// 관계 연산자는 조건이 맞을 때 1이라는 값으로 반환되며,
-	// 조건이 틀릴 때 0이라는 값으로 반환됩니다.
+// 관계 연산자는 조건이 맞을 때 1이라는 값으로 반환되며,
+// 조건이 틀릴 때 0이라는 값으로 반환됩니다.
 #pragma endregion
 
 #pragma region if문
@@ -83,32 +83,113 @@ void main()
 #pragma region switch문
 	// 어떤 결과에 따라 그 결과부터 실행되는 명령문입니다.
 
-	char grade = 'E';
+	//char grade = 'E';
 
 	// switch문은 해당 조건이 완료되었을 때, break문이 없으면
 	// 나머지 밑에 있는 case 문까지 계속 실행시키다가 종료합니다.
 
-	switch (grade)
-	{
-	case 'A': printf("100점 ~ 90점입니다. \n");
-		break;
-	case 'B': printf("89점 ~ 80점입니다. \n");
-		break;
-	case 'C': printf("79점 ~ 70점입니다. \n");
-		break;
-	case 'D': printf("69점 ~ 60점입니다. \n");
-		break;
-	case 'F': printf("60점 이하입니다. \n");
-		break;
-	default: printf("Exception\n");
-		break;
-	}
+	// switch (grade)
+	// {
+	// case 'A': printf("100점 ~ 90점입니다. \n");
+	// 	break;
+	// case 'B': printf("89점 ~ 80점입니다. \n");
+	// 	break;
+	// case 'C': printf("79점 ~ 70점입니다. \n");
+	// 	break;
+	// case 'D': printf("69점 ~ 60점입니다. \n");
+	// 	break;
+	// case 'F': printf("60점 이하입니다. \n");
+	// 	break;
+	// default: printf("Exception\n");
+	// 	break;
+	// }
 
 	// switch문의 경우 조건에 해당하는 값에 따라 조건의
 	// 위치로 이동합니다.
 #pragma endregion
 
-// pull request
+#pragma region 논리 연산자
+
+#pragma region  AND 연산자
+// 두 개의 조건이 다 성립될 때 실행되는 연산자입니다.
+
+	// int score = 100;
+	// char rank = 'A';
+	// 
+	// if (score == 100 && rank == 'A')
+	// {
+	// 	printf("1st place");
+	// }
+		
+#pragma endregion
+
+#pragma region OR 연산자
+// 두 개의 조건 중에서 하나라도 조건이 성립할 때 실행되는 연산자입니다.
+
+		// int ammo = 30;
+		// char gun = 'AR';
+		// 
+		// if (ammo == 30 || gun == 'HG')
+		// {
+		// 	printf("Full ammo");
+		// }
+		
+#pragma endregion
+
+#pragma region NOT 연산자
+// 하나의 조건을 반전시키는 연산자입니다.
+
+	// int power = 0;
+	// if (!power)
+	// {
+	// 	printf("power on");
+	// }
+
+
+#pragma endregion
+
+
+
+
+#pragma endregion
+
+#pragma region 사분면
+
+// int x = 0;
+// int y = 0;
+// 
+// if (x > 0 && y > 0)
+// {
+// 	printf("제 1 사분면\n");
+// }
+// else if (x < 1 && y > 0)
+// {
+// 	printf("제 2 사분면\n");
+// }
+// else if (x < 1 && y < 0)
+// {
+// 	printf("제 3 사분면\n");
+// }
+// else if (x > 0 && y < 1)
+// {
+// 	printf("제 4 사분면\n");
+// }
+// else if (x != 0 && y == 0)
+// {
+// 	printf("x 절편\n");
+// }
+// else if (x == 0 && y != 0)
+// {
+// 	printf("y 절편\n");
+// }
+// else 
+//  {
+// 	printf("원점\n");
+//  }
+#pragma endregion
+
+
+
 
 
 #pragma endregion

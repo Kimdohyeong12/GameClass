@@ -2,7 +2,7 @@
 
 void main()
 {
-<<<<<<< HEAD
+
 #pragma region 산술 연산자
 	// 1. 변수 = 변수 + 변수
 	// int x1 = 10;
@@ -30,7 +30,7 @@ void main()
 	// int ko5 = x5 % 2;
 	// printf("ko5 = %d\n", ko5);
 
-=======
+
 
 #pragma region 산술 연산자
 	// 1. 변수 = 변수 + 변수
@@ -42,7 +42,7 @@ void main()
 	// 4. 변수 = 리터럴 상수 / 리터럴 상수
 
 	// 5. 변수 = 심볼릭 상수 % 리터럴 상수
->>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
+
 #pragma endregion
 
 #pragma region 비트
@@ -97,11 +97,11 @@ void main()
 	// int storage6 = 10;   0000 1010
 	//                     ----------- 
 	//                      0000 0010
-<<<<<<< HEAD
+
 	//printf("storage5 ^ storage6 = %d\n", storage5 ^ storage6);
-=======
+
 	//printf("storage5 ^ storage6 = %d\n", storage5 ^storage6);
->>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
+
 #pragma endregion
 
 #pragma region  NOT 연산자
@@ -122,7 +122,7 @@ void main()
 #pragma endregion
 
 #pragma region 시프트 연산자
-<<<<<<< HEAD
+
 // 비트를 특정한 위치로 정해진 수만큼 이동시키는 연산자입니다.
 
 	// int data = 5; // 0000 0101
@@ -134,7 +134,7 @@ void main()
 	// shift = data >> 1; // 0000 0010
 
 	// printf("shift 변수의 값 : %d\n", shift);
-=======
+
 	// 비트를 특정한 위치로 정해진 수만큼 이동시키는 연산자입니다.
 
 	 //int data = 5; // 0000 0101
@@ -143,7 +143,7 @@ void main()
 	
 	  //shift = data >> 1;
 	 // printf("shift 변수의 값 ; %d\n", shift);
->>>>>>> 03a93ddcba951bc52053d2813e810627411bfd8f
+
 #pragma endregion
 
 
