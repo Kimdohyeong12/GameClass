@@ -16,6 +16,10 @@ void main()
 	// ko1 = ++nextko2;
 	// printf("nextko2 변수를 전위 증가하는 값 : %d\n", nextko2);
 	// printf("ko1 변수의 값 : %d\n", ko1);
+
+	// ko1 = --nextko2;
+	// printf("nextko2 변수를 전위 감소하는 값 : %d\n", nextko2);
+	// printf("ko1 변수의 값 : %d\n", ko1);
    
 	// 전위 증감 연산자는 변수의 값을 증감시킨 후에
 	// 연산을 수행합니다.
@@ -27,8 +31,8 @@ void main()
 	// printf("nextko4 변수를 후위 증가시키는 값 : %d\n", nextko4);
 	// printf("ko3 변수의 값 : %d\n", ko3);
 
-	// ko3 = nextko4++;
-	// printf("nextko4 변수를 후위 증가시키는 값 : %d\n", nextko4);
+	// ko3 = nextko4--;
+	// printf("nextko4 변수를 후위 감소시키는 값 : %d\n", nextko4);
 	// printf("ko3 변수의 값 : %d\n", ko3);
 	// 
 	// 후위 증감 연산자는 연산을 수행한 다음 변수의 값을 증감시킵니다.
@@ -67,7 +71,7 @@ void main()
 	// 조건과 상관없이 한 번의 작업을 수행한 다음 조건에
 	// 따라 명령문을 실행하는 반복문입니다.
 
-	 int life = 0;
+	 // int life = 0;
 	 
 	//  do
 	//  {
