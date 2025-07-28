@@ -143,9 +143,14 @@ void main()
 int ko3 = 99;
 int ko4 = 555;
 
-int* const ko3 = 125;
+int* const pointer = &ko3;
+
+*pointer = 125;
 
 printf("ko3의 값 : %d\n", ko3);
+printf("pointer의 값 : %d\n", *pointer);
+printf("ko3의 주소 값 : %p\n", &ko3);
+printf("pointer의 주소 값 : %p\n", pointer);
 
 #pragma endregion
 

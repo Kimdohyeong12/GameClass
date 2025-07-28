@@ -1,5 +1,2 @@
 ﻿  source.c
-C:\Users\Administrator\Desktop\GameClass\class7th( Type Conversion)\source.c(146,12): error C2373: 'ko3': 재정의. 형식 한정자가 다릅니다.
-      C:\Users\Administrator\Desktop\GameClass\class7th( Type Conversion)\source.c(143,5):
-      'ko3' 선언을 참조하십시오.
-  
+  class7th( Type Conversion).vcxproj -> C:\Users\김도형\OneDrive\바탕 화면\GameClass\project\x64\Debug\class7th( Type Conversion).exe
