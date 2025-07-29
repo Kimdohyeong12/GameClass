@@ -143,15 +143,15 @@ void main()
 int ko3 = 99;
 int ko4 = 555;
 
-int* const pointer = &ko3;
+int* const ko_pointer = &ko3;
 
-*pointer = 125;
+*ko_pointer = 125;
 
 printf("ko3의 값 : %d\n", ko3);
-printf("pointer의 값 : %d\n", *pointer);
 printf("ko3의 주소 값 : %p\n", &ko3);
-printf("pointer의 주소 값 : %p\n", pointer);
-
+printf("ko_pointer의 주소 값 : %p\n\n", ko_pointer);
+printf("ko4의 값 : %d\n", &ko4);
+printf("ko4의 주소 값 : %p\n", &ko4);
 #pragma endregion
 
 
