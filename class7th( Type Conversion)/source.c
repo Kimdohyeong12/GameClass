@@ -140,18 +140,25 @@ void main()
 // 포인터 변수가 가리키고 있는 주소 값을 
 // 변경할 수 없는 포인터입니다.
 
-int ko3 = 99;
-int ko4 = 555;
+// int ko3 = 99;
+// int ko4 = 555;
+// 
+// int* const ko_pointer = &ko3;
+// 
+// *ko_pointer = 125;
+// 
+// printf("ko_pointer 변수가 가리키는 값 : %d\n", *ko_pointer);
+// printf("ko3의 값 : %d\n", ko3);
 
-int* const ko_pointer = &ko3;
+// ko_pointer = &ko4;
 
-*ko_pointer = 125;
+// 상수로 선언한 포인터는 해당 변수의 값을 변경할 수 있지만, 다른 변수의
+// 주소를 새로 저장할 수는 없습니다.
 
-printf("ko3의 값 : %d\n", ko3);
-printf("ko3의 주소 값 : %p\n", &ko3);
-printf("ko_pointer의 주소 값 : %p\n\n", ko_pointer);
-printf("ko4의 값 : %d\n", &ko4);
-printf("ko4의 주소 값 : %p\n", &ko4);
+// printf("ko3의 주소 값 : %p\n", &ko3);
+// printf("ko_pointer의 주소 값 : %p\n\n", ko_pointer);
+// printf("ko4의 값 : %d\n", ko4);
+// printf("ko4의 주소 값 : %p\n", &ko4);
 #pragma endregion
 
 
