@@ -39,11 +39,18 @@ void main()
 	// 배역은 연속적인 메모리 공간을 가지고 있으며, 배열의 이름은
 	// 배열의 시작 주소를 가리킵니다.
 
-	int* pointer = ;
+	int* pointer = array;
 
 	pointer = pointer + 1;
 
-	printf("array[%d}의 값 : %d\n", array[1]);
+	*pointer = 25;
+
+	printf("pointer의 값 : %d\n", *pointer);
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("array[%d}의 값 : %d\n", i, array[i]);
+	}
 
 #pragma endregion
 
