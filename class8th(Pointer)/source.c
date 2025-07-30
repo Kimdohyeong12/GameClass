@@ -101,6 +101,13 @@ void main()
 		{7,8,9},
 	};
 
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			printf("array[%d][%d]의 출력 ; %d\n", i, j, array2D[i][j]);
+		}
+	}
 	
 
 	// 2차원 배열은 행과 열로 구분되며, 앞에 있는 배열은
