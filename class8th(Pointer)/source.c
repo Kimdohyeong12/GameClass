@@ -94,25 +94,42 @@ void main()
 #pragma region (2)차원 배열
 	// 배열의 요소로 또 다른 배열을 가지는 배열입니다.
 
-	int array2D[3][3] =
-	{
-		{1,2,3},
-		{4,5,6},
-		{7,8,9},
-	};
-
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 3; j++)
-		{
-			printf("array[%d][%d]의 출력 ; %d\n", i, j, array2D[i][j]);
-		}
-	}
+	// int array2D[3][3] =
+	// {
+	// 	{1,2,3},
+	// 	{4,5,6},
+	// 	{7,8,9},
+	// };
+	// 
+	// for (int i = 0; i < 3; i++)
+	// {
+	// 	for (int j = 0; j < 3; j++)
+	// 	{
+	// 		printf("%d", array2D[i][j]);
+	// 	}
+	// 	printf("\n");
+	// }
 	
 
 	// 2차원 배열은 행과 열로 구분되며, 앞에 있는 배열은
 	// 행을 의미하고, 뒤에 있는 배열은 열을 의미합니다. 
 #pragma endregion
+
+#pragma region 아스키 코드
+// 미국 국립 표준 협회에서 표준화한 정보 교환용
+// 7 bit 부호 체게입니다.
+
+// char alphabet = 'A';
+// 
+// printf("alphabet 변수의 값 : %d\n\n", alphabet);
+// 
+// for (int i = 0; i < 26; i++)
+// {
+// 	printf("%c", alphabet + i);
+// }
+
+#pragma endregion
+
 
 
 
