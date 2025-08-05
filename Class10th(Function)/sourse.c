@@ -1,5 +1,26 @@
 ﻿#include <stdio.h>
 
+int health = 5;
+
+// void render()
+// {
+// 	for (int i = 0; i < health; i++)
+// 	{
+// 		printf("♥");
+// 	}
+// }
+
+
+// void scorestrick()
+// {
+// 	static int scorestrick = 0;
+// 	
+// 	scorestrick++;
+// 
+// 	printf("scorestrick : %d\n", scorestrick);
+// 
+// }
+
 int main()
 {
 #pragma region 메모리 영역
@@ -7,7 +28,7 @@ int main()
 #pragma region code 영역
 	// 프로그램을 실행하기 위해 필요한 코드가 저장되는 영역으로
 	// 함수의 주소와 상수가 저장되는 메모리 영역입니다.
-
+	
 #pragma endregion
 
 #pragma region Data 영역
@@ -40,6 +61,46 @@ int main()
 
 
 #pragma endregion
+
+#pragma region 지역 변수
+	// 하묘수 내부에서 선언된 변수로 함수 내부에서만 접근할 수 있으며,
+	// 함수가 종료되었을 때 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
+
+	// int x = 10;
+	// 
+	// {
+	// 	int x = 20;
+	// 
+	// 	printf("x 변수의 값 : %d\n", x);
+	// }
+	// 
+	// printf("x 변수의 값 : %d\n", x);
+#pragma endregion
+
+#pragma region 전역 변수
+	// 함수 외부에서 선언된 변수로 프로그램이 실행될 때
+	// 메모리에 올라가게 되며, 프로그램이 종료되면메모리에서
+	// 해제되는 변수입니다.
+
+	// health = health - 1;
+	// 
+	// render();
+
+#pragma endregion
+
+#pragma region 정적 변수
+	// 지역 변수의 특성을 가지면서 전역 변수의 특성을 가지고 변수로,
+	// 단 한 번만 초기화가 이루어지며, 프로그램이 실행될 때 메모리에서
+	// 생성되고, 프로그램이 종료되면 메모리에서 해제되는 변수입니다.
+	 
+	// scorestrick();
+	// scorestrick();
+	// scorestrick();
+
+#pragma endregion
+
+
+
 
 
 	return 0;
