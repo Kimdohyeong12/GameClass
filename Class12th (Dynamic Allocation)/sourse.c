@@ -1,12 +1,12 @@
 ﻿#include <stdio.h>
 #include <math.h>
 
-struct Data
-{
-	char grade;
-	int health;
-	double experience;
-};
+// struct Data
+// {
+// 	char grade;
+// 	int health;
+// 	double experience;
+// };
 
 int main()
 {
@@ -37,13 +37,30 @@ int main()
 
 #pragma region 두 점 사이의 거리
 	
-	// printf( "%lf\n", sqrt(49));
+	// printf( "%lf\n", sqrt(49)); -> 제곱근
 	// 
-	// printf("%lf\n", pow(2,2));
+	// printf("%lf\n", pow(2,2)); -> 제곱
 
+	struct Agent agent;
+	struct Terrorist terrorist = {7, 3};
 
+	printf("현재 좌표 입력 : ");
+	scanf("%d %d", &agent.x, &agent.y);
 
+	double dx = agent.x - terrorist.x;
+	double dy = agent.y - terrorist.y;
 
+	double distance = sqrt(dx * dx + dy * dy);
+
+	if (distance < 5.0)
+	{
+		printf("적 발견!\n");
+	}
+
+	else
+	{
+		printf("적과의 거리 %.2lf\n", distance);
+	}
 
 #pragma endregion
 
