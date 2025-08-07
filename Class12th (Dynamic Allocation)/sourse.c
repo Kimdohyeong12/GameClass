@@ -1,12 +1,25 @@
 ﻿#include <stdio.h>
 #include <math.h>
 
-// struct Data
-// {
-// 	char grade;
-// 	int health;
-// 	double experience;
-// };
+ // struct Data
+ // {
+ // 	char grade;
+ //	 int health;
+ // 	double experience;
+ // };
+
+ // struct Ability
+ // {
+ //	  char rank;
+ //	  double attack;
+ //	  int strenth;
+ // };
+
+struct Node
+{
+	int data;
+	struct Node* next;
+};
 
 int main()
 {
@@ -36,33 +49,99 @@ int main()
 #pragma endregion
 
 #pragma region 두 점 사이의 거리
-	
+
 	// printf( "%lf\n", sqrt(49)); -> 제곱근
 	// 
 	// printf("%lf\n", pow(2,2)); -> 제곱
 
-	struct Agent agent;
-	struct Terrorist terrorist = {7, 3};
-
-	printf("현재 좌표 입력 : ");
-	scanf("%d %d", &agent.x, &agent.y);
-
-	double dx = agent.x - terrorist.x;
-	double dy = agent.y - terrorist.y;
-
-	double distance = sqrt(dx * dx + dy * dy);
-
-	if (distance < 5.0)
-	{
-		printf("적 발견!\n");
-	}
-
-	else
-	{
-		printf("적과의 거리 %.2lf\n", distance);
-	}
+	// struct point2D rogue = { 0,0 };
+	// struct point2D slime = { 7, 3 };
+	// 
+	// double x = rogue.x = slime.x;
+	// double x = rogue.y = slime.y;
+	// 
+	// double distance = sqrt(pow(x, 2) + pow(y, 2));
+	// 
+	// if (distance >= 5.9)
+	// {
+	// 	printf("It is safe\n");
+	// }
+	// else
+	// {
+	// 	printf("target is in attack range\n");
+	// }
+	// 
+	// struct Agent a1 = { 0,0 };
+	// struct Terrorist t1 = {7, 3};
+	// 
+	// printf("현재 좌표 입력 : ");
+	// scanf("%d %d", &a1.x, &a1.y);
+	// 
+	// double dx = a1.x - t1.x;
+	// double dy = a1.y - t1.y;
+	// 
+	// double distance = sqrt(dx * dx + dy * dy);
+	// 
+	// if (distance < 5.0)
+	// {
+	// 	printf("적 발견!\n");
+	// }
+	// 
+	// else
+	// {
+	// 	printf("적과의 거리 %.2lf\n", distance);
+	// }
 
 #pragma endregion
+
+#pragma region 바이트 패딩
+	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
+	// 읽을 수 있도록, 컴파일러가 레지스터의 블록에
+	// 맞추어 바이트를 패딩해주는 최적화 작업입니다.
+
+	// struct Data packet = { 'A', 10, 17 };
+	// 
+	// printf("Data 구조체의 크기 : %u\n", sizeof(packet));
+	
+	// 구조체의 크기는 구조체를 구성하는 멤버 중에서
+	// 가장 큰 지료형의 베수가 되도록 정렬합니다.
+
+	// struct Ability packet = { 'A', 10, 17 };
+	// 
+	// printf("Ability 구조체의 크기 : %d\n", sizeof(ability));
+
+	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리의 크기가
+	// 다르게 설정될 수 있습니다.
+
+
+#pragma endregion
+
+#pragma region 자기 참조 구조체
+	
+	struct Node node1 = { 10,NULL };
+	struct Node node2 = { 20,NULL };
+	struct Node node3 = { 30,NULL };
+	
+	node1.next = &node2;
+
+	node2.next = &node3;
+
+	node3.next = NULL;
+
+	struct Node* currentNode = &node1;
+		
+	while (currentNode != NULL)
+	{
+		printf("%d", currentNode->data);
+
+		currentNode = currentNode->next;
+	}
+
+
+
+#pragma endregion
+
+
 
 
 	return 0;
