@@ -8,6 +8,22 @@
  // 	double experience;
  // };
 
+// struct Point2D
+// {
+// 	int x;
+// 	int y;
+// };
+
+// struct Agent
+// {
+// 	int f;
+// };
+// 
+// struct Terrorist
+// {
+// 	int g;
+// };
+
  // struct Ability
  // {
  //	  char rank;
@@ -50,47 +66,47 @@ int main()
 
 #pragma region 두 점 사이의 거리
 
-	// printf( "%lf\n", sqrt(49)); -> 제곱근
-	// 
-	// printf("%lf\n", pow(2,2)); -> 제곱
+ // printf( "%lf\n", sqrt(49)); -> 제곱근
+ 
+ // printf("%lf\n", pow(2,2)); -> 제곱
 
-	// struct point2D rogue = { 0,0 };
-	// struct point2D slime = { 7, 3 };
-	// 
-	// double x = rogue.x = slime.x;
-	// double x = rogue.y = slime.y;
-	// 
-	// double distance = sqrt(pow(x, 2) + pow(y, 2));
-	// 
-	// if (distance >= 5.9)
-	// {
-	// 	printf("It is safe\n");
-	// }
-	// else
-	// {
-	// 	printf("target is in attack range\n");
-	// }
-	// 
-	// struct Agent a1 = { 0,0 };
-	// struct Terrorist t1 = {7, 3};
-	// 
-	// printf("현재 좌표 입력 : ");
-	// scanf("%d %d", &a1.x, &a1.y);
-	// 
-	// double dx = a1.x - t1.x;
-	// double dy = a1.y - t1.y;
-	// 
-	// double distance = sqrt(dx * dx + dy * dy);
-	// 
-	// if (distance < 5.0)
-	// {
-	// 	printf("적 발견!\n");
-	// }
-	// 
-	// else
-	// {
-	// 	printf("적과의 거리 %.2lf\n", distance);
-	// }
+ // struct Point2D rogue = { 0,0 };
+ // struct Point2D slime = { 7, 3 };
+ // 
+ // double x = rogue.x - slime.x;
+ // double x = rogue.y - slime.y;
+ // 
+ // double distance = sqrt(pow(x, 2) + pow(y, 2));
+ // 
+ // if (distance >= 5.0)
+ // {
+ // 	printf("It is safe\n");
+ // }
+ // else
+ // {
+ // 	printf("target is in attack range\n");
+ // }
+ 
+ // struct Agent a1 = { 1,1 };
+ // struct Terrorist t1 = {6, 2};
+ // 
+ // printf("현재 좌표 입력 : ");
+ // scanf("%d %d", &a1.f, &a1.f);
+ // 
+ // double dx = a1.f - t1.g;
+ // double dy = a1.f - t1.g;
+ // 
+ // double distance = sqrt(dx * dx + dy * dy);
+ // 
+ // if (distance < 5.0)
+ // {
+ // 	printf("적 발견!\n");
+ // }
+ // 
+ // else
+ // {
+ // 	printf("적과의 거리 %.2lf\n", distance);
+ // }
 
 #pragma endregion
 

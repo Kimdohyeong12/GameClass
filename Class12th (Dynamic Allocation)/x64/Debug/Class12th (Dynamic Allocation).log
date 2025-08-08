@@ -1,2 +1,6 @@
 ﻿  sourse.c
-  Class12th (Dynamic Allocation).vcxproj -> C:\Users\Administrator\Desktop\GameClass\project\x64\Debug\Class12th (Dynamic Allocation).exe
+C:\Users\김도형\OneDrive\바탕 화면\GameClass\Class12th (Dynamic Allocation)\sourse.c(77,9): error C2374: 'x': 재정의. 여러 번 초기화했습니다.
+      C:\Users\김도형\OneDrive\바탕 화면\GameClass\Class12th (Dynamic Allocation)\sourse.c(76,9):
+      'x' 선언을 참조하십시오.
+  
+C:\Users\김도형\OneDrive\바탕 화면\GameClass\Class12th (Dynamic Allocation)\sourse.c(79,41): error C2065: 'y': 선언되지 않은 식별자입니다.
